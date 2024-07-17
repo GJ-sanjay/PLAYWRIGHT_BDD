@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<testsuite failures="0" skipped="0" name="cucumber-js" time="47.429903455" tests="2">
+  <testcase classname="GW_PC_TC634_ExistingPolicies_PA&amp;CA" name="Creating Policy for PA LOB in Existing Account" time="18.808200779">
+    <system-out><![CDATA[Given User is on login page...............................................passed
+And User enter username and password......................................passed
+And User verify LoginTitle................................................passed
+When User click New Submission in Actions menu............................passed
+Then User should verify "New Submissions" in Select Account page..........passed
+When User search account by Account Number "6542064324" and select exis...passed
+Then User should view "Account File Summary" in Account Summary page......passed
+When User click New Submission in Actions menu on Account Summary page....passed
+When User should verify "Personal Auto" in LOB page.......................passed
+When User select Personal Auto LOB in LOB page............................passed
+Then User should view "Offerings" in Offering page........................passed
+When User select "Basic Program" in Offering Selection and click Next.....passed
+Then User should verify "Qualification" in Qualification page.............passed
+When User click Next in Qualification page................................passed
+Then User should view "Policy Info" in Policy Info page...................passed
+When User click Next in Policy Info page..................................passed
+Then User should view "Drivers" in Drivers page...........................passed
+When User select Account Holder from Existing Driver in Add dropdown......passed
+And User enter contact details of driver "02/07/1996" "A98765432" "Ariz...passed
+And User enter details in roles and Retrive MVR "2015"....................passed
+Then User should verify MVR Status "Ordered"..............................passed
+When User click Next in Drivers page......................................passed
+Then User should view "Vehicles" in Vehicles page.........................passed
+When User click Create Vehicle enter mandatory details "2FMDK51C99BA832...passed
+And User Assign driver in Add dropdown and click Next.....................passed
+Then User should view "PA Coverages" in Coverages page....................passed
+When User click Next in Coverages page....................................passed
+Then User should view "Risk Analysis" in Risk Analysis page...............passed
+When User click Next in Risk Analysis page................................passed
+Then User should view "Policy Review" in Policy Review page...............passed
+When User click Quote in Policy Review page...............................passed
+Then User should view "Quote" in Quote page...............................passed
+When User click Issue Policy in Bind Options dropdown and click OK........passed
+Then User should view "Submission Bound" in Submission Bound page.........passed
+When User click View Your Policy in Submission Bound page.................passed
+Then User should verify "Policy File" and save Policy Number..............passed]]></system-out>
+  </testcase>
+  <testcase classname="GW_PC_TC634_ExistingPolicies_PA&amp;CA" name="Creating Policy for CA LOB in Existing Account" time="28.621702676000005">
+    <system-out><![CDATA[Given User is on login page...............................................passed
+And User enter username and password......................................passed
+And User verify LoginTitle................................................passed
+When User click New Submission in Actions menu............................passed
+Then User should verify "New Submissions" in Select Account page..........passed
+When User search account by Account Number "6782917561" and select exis...passed
+Then User should view "Account File Summary" in Account Summary page......passed
+When User click New Submission in Actions menu on Account Summary page....passed
+Then User should verify "Commercial Auto" in LOB page.....................passed
+When User select Commercial Auto LOB in LOB page..........................passed
+Then User should view "Offerings" in Offering page........................passed
+When User select "Standard" in Offering Selection and click Next..........passed
+Then User should verify "Qualification" in Qualification page.............passed
+When User click Next in Qualification page................................passed
+Then User should view "Policy Info" in Policy Info page...................passed
+Then User enter organization "Common ownership" type......................passed
+When User click Next in Policy Info page..................................passed
+Then User should verify "Commercial Auto Line" in Commercial Auto Line ...passed
+When User enter mandatory details in Commercial Auto Line Page "Motor C...passed
+Then User should view "Locations" in Location Details page................passed
+When User click Next in Location Details page.............................passed
+Then User should view "BAVehicles" in Vehicles page.......................passed
+When User click Create BAVehicle..........................................passed
+Then User verify "Vehicle Information" in Vehicle Information page........passed
+When User enter vehicle details "1: 123 ABC, Phoenix, AZ".................passed
+Then User enter Basic Vehicle Information "Trucks,Tractors,Trailers"......passed
+And User click Search in Class column.....................................passed
+Then User should view "Vehicle Class Code Search" in VCC Search page......passed
+When User select Size Class dropdown "Light truck" click Search and sel...passed
+Then User verify "Vehicle Information" in Vehicle Information page........passed
+When User click OK in Vehicle Information page "5NPE34AF4FH023266" "Ari...passed
+Then User should view "BAVehicles" in Vehicles page.......................passed
+When User click Next in Vehicles page.....................................passed
+Then User veiw "State Info" in State Info page............................passed
+When User click Next in State Info page...................................passed
+Then User should view "BADriver" in Drivers page..........................passed
+When User click Add Driver................................................passed
+Then User should view "BADriver Details" in Driver Details page...........passed
+When User enter mandatory details and click OK............................passed
+Then User should view "BADriver" in Drivers page..........................passed
+When User click Next in Drivers page......................................passed
+Then User should view "Covered Vehicles" in Covered Vehicles page.........passed
+When User click Next in Coverages page....................................passed
+Then User should view "Modifiers" in Modifiers page.......................passed
+When User click Next in Modifiers page....................................passed
+Then User should view "Risk Analysis" in Risk Analysis page...............passed
+When User click Next in Risk Analysis page................................passed
+Then User should view "Policy Review" in Policy Review page...............passed
+When User click Quote in Policy Review page...............................passed
+When User click "Commercial Auto Line" in Commercial Auto Line page.......passed
+Then User should verify "Commercial Auto Line" in Commercial Auto Line ...passed
+When User click Policy Review in Policy Review page.......................passed
+Then User should view "Policy Review" in Policy Review page...............passed
+When User click PRQuote in Policy Review page.............................passed
+When User click Issue Policy in Bind Options dropdown and click OK........passed
+Then User should view "Submission Bound" in Submission Bound page.........passed
+When User click View Your Policy in Submission Bound page.................passed
+Then User should verify "Policy File" and save Policy Number..............passed]]></system-out>
+  </testcase>
+</testsuite>

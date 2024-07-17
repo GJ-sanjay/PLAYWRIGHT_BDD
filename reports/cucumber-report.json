@@ -1,0 +1,1355 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "gw_pc_tc634_existingpolicies_pa&ca;creating-policy-for-pa-lob-in-existing-account",
+        "keyword": "Scenario Outline",
+        "line": 48,
+        "name": "Creating Policy for PA LOB in Existing Account",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 617796799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "steps\\LoginSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 608136600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enter username and password",
+            "match": {
+              "location": "steps\\LoginSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 334155300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User verify LoginTitle",
+            "match": {
+              "location": "steps\\LoginSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12506900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User click New Submission in Actions menu",
+            "match": {
+              "location": "steps\\NewSubmissionsSteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 562121399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should verify \"New Submissions\" in Select Account page",
+            "match": {
+              "location": "steps\\NewSubmissionsSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66681700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User search account by Account Number \"6542064324\" and select existing account",
+            "match": {
+              "location": "steps\\NewSubmissionsSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 357974399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User should view \"Account File Summary\" in Account Summary page",
+            "match": {
+              "location": "steps\\NewSubmissionsSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 426446399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User click New Submission in Actions menu on Account Summary page",
+            "match": {
+              "location": "steps\\NewSubmissionsSteps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205160799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User should verify \"Personal Auto\" in LOB page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4929600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User select Personal Auto LOB in LOB page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250111599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User should view \"Offerings\" in Offering page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 493783199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User select \"Basic Program\" in Offering Selection and click Next",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88867799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "User should verify \"Qualification\" in Qualification page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157796500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User click Next in Qualification page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52718999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User should view \"Policy Info\" in Policy Info page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154704599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "User click Next in Policy Info page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68122400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "User should view \"Drivers\" in Drivers page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151074699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "User select Account Holder from Existing Driver in Add dropdown",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 438908399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User enter contact details of driver \"02/07/1996\" \"A98765432\" \"Arizona\"",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 393360899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User enter details in roles and Retrive MVR \"2015\"",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 969429199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "User should verify MVR Status \"Ordered\"",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 575022299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "User click Next in Drivers page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 438836100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "User should view \"Vehicles\" in Vehicles page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181609200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "User click Create Vehicle enter mandatory details \"2FMDK51C99BA83243\" \"Arizona\" \"2000\"",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3444954599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User Assign driver in Add dropdown and click Next",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 561419200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "User should view \"PA Coverages\" in Coverages page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 407960600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "User click Next in Coverages page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81993599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "User should view \"Risk Analysis\" in Risk Analysis page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3930500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "User click Next in Risk Analysis page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428314999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "User should view \"Policy Review\" in Policy Review page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234095200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "User click Quote in Policy Review page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:141"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78749499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "User should view \"Quote\" in Quote page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:147"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 887599000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "User click Issue Policy in Bind Options dropdown and click OK",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:150"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236662299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "User should view \"Submission Bound\" in Submission Bound page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "User click View Your Policy in Submission Bound page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:156"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 868779500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "User should verify \"Policy File\" and save Policy Number",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:159"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3727647400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 235641600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GW_PC_ExistingPolicies",
+            "line": 1
+          },
+          {
+            "name": "@Sanity",
+            "line": 10
+          },
+          {
+            "name": "@GW_PC_ExistingPA",
+            "line": 10
+          },
+          {
+            "name": "@Regression",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gw_pc_tc634_existingpolicies_pa&ca;creating-policy-for-ca-lob-in-existing-account",
+        "keyword": "Scenario Outline",
+        "line": 114,
+        "name": "Creating Policy for CA LOB in Existing Account",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 530110800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "steps\\LoginSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 492525200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enter username and password",
+            "match": {
+              "location": "steps\\LoginSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 312443099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User verify LoginTitle",
+            "match": {
+              "location": "steps\\LoginSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6158600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "User click New Submission in Actions menu",
+            "match": {
+              "location": "steps\\NewSubmissionsSteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 573880900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "User should verify \"New Submissions\" in Select Account page",
+            "match": {
+              "location": "steps\\NewSubmissionsSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122447400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "User search account by Account Number \"6782917561\" and select existing account",
+            "match": {
+              "location": "steps\\NewSubmissionsSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 399600199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "User should view \"Account File Summary\" in Account Summary page",
+            "match": {
+              "location": "steps\\NewSubmissionsSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 430235599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "User click New Submission in Actions menu on Account Summary page",
+            "match": {
+              "location": "steps\\NewSubmissionsSteps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199202699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "User should verify \"Commercial Auto\" in LOB page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4568599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "User select Commercial Auto LOB in LOB page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:170"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 310358800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "User should view \"Offerings\" in Offering page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 460298799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "User select \"Standard\" in Offering Selection and click Next",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100199099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "User should verify \"Qualification\" in Qualification page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206677500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "User click Next in Qualification page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74865500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "User should view \"Policy Info\" in Policy Info page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206059000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "User enter organization \"Common ownership\" type",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15962700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "User click Next in Policy Info page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88201200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "User should verify \"Commercial Auto Line\" in Commercial Auto Line page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:176"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 296044099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "User enter mandatory details in Commercial Auto Line Page \"Motor Carrier and Truckers\" \"Fewer than 10 units\" and click Next",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:179"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1103891999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "User should view \"Locations\" in Location Details page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 371601599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "User click Next in Location Details page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:185"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72738200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "User should view \"BAVehicles\" in Vehicles page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:188"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126747500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "User click Create BAVehicle",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82905300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "User verify \"Vehicle Information\" in Vehicle Information page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211539799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "User enter vehicle details \"1: 123 ABC, Phoenix, AZ\"",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3035374599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "User enter Basic Vehicle Information \"Trucks,Tractors,Trailers\"",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:200"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 373399700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "User click Search in Class column",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:203"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3287706800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "User should view \"Vehicle Class Code Search\" in VCC Search page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124511800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "User select Size Class dropdown \"Light truck\" click Search and select",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:209"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348063199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "User verify \"Vehicle Information\" in Vehicle Information page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182018100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 79,
+            "name": "User click OK in Vehicle Information page \"5NPE34AF4FH023266\" \"Arizona\" \"2000\"",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3220612399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "User should view \"BAVehicles\" in Vehicles page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:188"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180863399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 81,
+            "name": "User click Next in Vehicles page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:215"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64358900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "User veiw \"State Info\" in State Info page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:218"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 376752099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 83,
+            "name": "User click Next in State Info page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:221"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24925700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "User should view \"BADriver\" in Drivers page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:224"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 370405800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 85,
+            "name": "User click Add Driver",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:228"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36075500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "User should view \"BADriver Details\" in Driver Details page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:231"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114565799
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Firstname",
+                      "Lastname",
+                      "Gender",
+                      "DOB",
+                      "LicenseNo",
+                      "LicenseState",
+                      "LicenseYear"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "John",
+                      "Doe",
+                      "Male",
+                      "01/01/1990",
+                      "A98765432",
+                      "Arizona",
+                      "2015"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 87,
+            "name": "User enter mandatory details and click OK",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198750599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 91,
+            "name": "User should view \"BADriver\" in Drivers page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:224"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127010399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "User click Next in Drivers page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58903299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "User should view \"Covered Vehicles\" in Covered Vehicles page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:238"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207194800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 94,
+            "name": "User click Next in Coverages page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74061700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 95,
+            "name": "User should view \"Modifiers\" in Modifiers page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:241"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211087700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 96,
+            "name": "User click Next in Modifiers page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:244"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70060000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "User should view \"Risk Analysis\" in Risk Analysis page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3519699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 98,
+            "name": "User click Next in Risk Analysis page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:132"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 240992500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "User should view \"Policy Review\" in Policy Review page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 256092899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 100,
+            "name": "User click Quote in Policy Review page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:141"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95957000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 101,
+            "name": "User click \"Commercial Auto Line\" in Commercial Auto Line page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:163"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1840892500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 102,
+            "name": "User should verify \"Commercial Auto Line\" in Commercial Auto Line page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:176"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3877200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 103,
+            "name": "User click Policy Review in Policy Review page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:135"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 525979600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 104,
+            "name": "User should view \"Policy Review\" in Policy Review page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249206499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 105,
+            "name": "User click PRQuote in Policy Review page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:144"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62009100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 106,
+            "name": "User click Issue Policy in Bind Options dropdown and click OK",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:150"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1059291700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 107,
+            "name": "User should view \"Submission Bound\" in Submission Bound page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 108,
+            "name": "User click View Your Policy in Submission Bound page",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:156"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 865344300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 109,
+            "name": "User should verify \"Policy File\" and save Policy Number",
+            "match": {
+              "location": "steps\\PolicyCreationSteps.js:159"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3724267499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 208194100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GW_PC_ExistingPolicies",
+            "line": 1
+          },
+          {
+            "name": "@GW_PC_ExistingCA",
+            "line": 50
+          },
+          {
+            "name": "@GW_PC_TC646",
+            "line": 50
+          },
+          {
+            "name": "@Regression",
+            "line": 50
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "gw_pc_tc634_existingpolicies_pa&ca",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "GW_PC_TC634_ExistingPolicies_PA&CA",
+    "tags": [
+      {
+        "name": "@GW_PC_ExistingPolicies",
+        "line": 1
+      }
+    ],
+    "uri": "features\\PolicyCenter\\GW_PC_TC634_ExistingPolicies.feature"
+  }
+]
